@@ -1,0 +1,439 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: 'Roboto Slab', serif; */
+    /* color: black; */
+    /* background: black; */
+}
+
+.container{
+    /* position: fixed; */
+    
+    background: solid white;
+    height: 15vh;
+    min-width: 100%;
+    display: flex;
+    /* background: white; */
+
+}
+
+.navlist{
+    background: solid white;
+    display: flex;
+    gap: 2.3rem;
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: white;
+}
+
+.navlist li{   
+    list-style: none;
+}
+
+.navlist li a{    /*for remove underline in a list*/
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem ;
+    /* color: white; */
+    font-weight: bold;
+    position: relative;
+}
+
+.navlist .main{
+    font-size: 1.5rem;
+}
+
+.donate{
+    color: white;
+    background: red;
+    font-size: 1rem;
+    font-weight: bolder;
+    padding: .8rem 1.5rem;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.donate:hover{
+    background: black;
+    color: white;
+
+}
+
+
+.content{
+    
+    max-height: 25rem;
+    max-width: 35rem;
+}
+
+.bodyy{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url("image/students.jpg");
+    
+    background-size: 100%;
+    width: 100%;
+    height: 50vh;
+    /* background-blend-mode:; */
+    
+}
+
+.about{
+    color: white;
+    filter: brightness(300%);
+    padding-left:50vh;
+    padding-top: 15vh;
+    padding-right: 40vh;
+    font-size: 1.3rem;
+    max-width: 100%;
+    /* max-height: 100%; */
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    margin: 0.5rem 0 2rem 0;
+    line-height: 1.8rem;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.welcome{
+    background-color: rgb(157, 173, 167);
+    padding-top: 0;
+    font-size: 1.3rem;
+    max-width: 100%;
+    min-height: 30vh;
+    text-align: justify;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    margin: 0rem 0 0rem 0;
+    line-height: 1.8rem;
+    font-weight: bold;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.text1{
+    position: relative;
+    /* left: 160vh; */
+    top:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.end{
+    color: blue;
+    display: flex;
+    position: relative;
+    top:40px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.design{
+    background-color: rgb(157, 173, 167);
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+
+.box1{
+    /* background-color: white; */
+    background: black;
+    width: 200px;
+    height: 200px;  
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.design .box1 .fa-solid{
+    color: white;
+    font-size: 5rem;
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top:20px;
+}
+
+.enroll{
+    color: white;
+    font-size: 3rem;
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top:-15px;
+    
+}
+
+.box1:hover{
+    background: #424658;
+
+}
+
+
+.box2{
+    /* background-color: white; */
+    background: black;
+    width: 200px;
+    height: 200px;  
+    cursor: pointer;
+    transition: .5s ease;
+}
+.box2:hover{
+    background: #424658;
+
+}
+
+.design .box2 .fa-solid{
+    color: white;
+    font-size: 5rem;
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top:25px;
+}
+
+.teach{
+    color: white;
+    font-size: 3rem;
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top: 35px;
+}
+
+
+
+
+.box3{
+    /* background-color: white; */
+    width: 200px;
+    height: 200px;
+    background: black;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.box3:hover{
+    background: #424658;
+
+}
+
+.design .box3 .fa-solid{
+    color: white;
+    font-size: 5rem;
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top:25px;
+}
+
+.support{
+    color: white;
+    font-size: 3rem;
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top: 35px;
+}
+
+
+.box4{
+    /* background-color: white; */
+    background: black;
+    width: 200px;
+    height: 200px;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+.box4:hover{
+    background: #424658;
+
+}
+
+.design .box4 .fa-solid{
+    color: white;
+    font-size: 5rem;
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top:25px;
+}
+
+.grow{
+    color: white;
+    font-size: 3rem;
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top: 35px;
+}
+
+
+.image{
+    padding: 50px;
+    display: flex;
+    gap:100px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.image .instruction, .resources, .leadership{
+    cursor: pointer;
+
+}
+
+
+.image .instruction{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url("image/instructions.jpeg");
+    color: white;
+    font-size: 1.5rem;
+    background-size: 150%;
+    aspect-ratio: 1;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instruction:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.2)), url("image/instructions.jpeg");
+
+}
+
+
+.image .resources{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url("image/resourses.jpeg");
+    color: white;
+    font-size: 1.5rem;
+    background-size: 150%;
+    aspect-ratio: 1;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.resources:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.2)), url("image/resourses.jpeg");
+
+}
+
+
+.image .leadership{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url("image/leadership.jpeg");
+    color: white;
+    font-size: 1.5rem;
+    background-size: 150%;
+    aspect-ratio: 1;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.leadership:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.2)), url("image/leadership.jpeg");
+
+}
+
+
+ 
+.exit{
+    background-image:linear-gradient(#00000080,
+    rgba(0, 0, 0, 0.5)), url("image/donation.jpeg");
+    background-size: 100%;
+    padding-top: 0;
+    font-size: 1.3rem;
+    max-width: 100%;
+    min-height: 80vh;
+    text-align:center;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    margin: 0rem 0 0rem 0;
+    line-height: 1.8rem;
+    font-weight: bold;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.text2{
+    position: relative;
+    text-align:center;
+    top:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.end2{
+    color: white;
+    padding-left:50vh;
+    padding-top: 15vh;
+    padding-right: 40vh;
+    font-size: 2rem;
+    max-width: 100%;
+    /* max-height: 100%; */
+    text-align:center;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    margin: 0.5rem 0 2rem 0;
+    line-height: 1.8rem;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.donate2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exit  .donate3{
+    color: white;
+    background: red;
+    font-size: 1rem;
+    font-weight: bolder;
+    padding: .8rem 1.5rem;
+    cursor: pointer;
+    transition: .5s ease;
+    
+}
+
+.donate3:hover{
+    background: rgb(15, 53, 150);
+    color: white;
+
+}
+
+
+
