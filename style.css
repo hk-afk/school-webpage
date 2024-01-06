@@ -6,12 +6,28 @@
     /* color: black; */
     /* background: black; */
 }
+.header{
+    background-color: rgb(37, 74, 187)  ;
+}
+
+.icons1{
+    display: flex;
+    gap: 20px;
+    padding-right: 200px;
+    padding-left: 200px;
+    height: 30px;
+    position: relative;
+    align-items: center;
+    justify-content:flex-end;
+}
 
 .container{
     /* position: fixed; */
-    
+    position: sticky;
+    top: 0px;
     background: solid white;
-    height: 15vh;
+    z-index: 1;
+    height: 10vh;
     min-width: 100%;
     display: flex;
     /* background: white; */
@@ -22,7 +38,7 @@
     background: solid white;
     display: flex;
     gap: 2.3rem;
-    height: 15vh;
+    height: 10vh;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -36,6 +52,7 @@
 
 .navlist li a{    /*for remove underline in a list*/
     text-decoration: none;
+    color: black;
     text-transform: uppercase;
     font-size: 1rem ;
     /* color: white; */
@@ -437,3 +454,28 @@
 
 
 
+footer{
+    position: relative;
+    background-color: rgb(37, 74, 187);
+    height: 100px;
+    width: 100%;
+}
+
+.ending{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.copy{
+    position:absolute;
+    left: 1280px;
+    bottom:0px;
+}
+
+.follow{
+    
+}
