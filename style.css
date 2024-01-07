@@ -125,7 +125,7 @@
     padding-top: 0;
     font-size: 1.3rem;
     max-width: 100%;
-    min-height: 30vh;
+    min-height: 100px;
     text-align: justify;
     letter-spacing: 2px;
     word-spacing: 5px;
@@ -472,8 +472,9 @@ footer{
 
 .copy{
     position:absolute;
-    left: 1280px;
+    left: 1360px;
     bottom:0px;
+    font-size: 1rem;
 }
 
 .follow{
