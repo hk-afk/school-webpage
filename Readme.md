@@ -9,7 +9,7 @@ This design contains (Marked are completed):
 - [x] Hero image with text in the center
 - [x] Logo div
 - [x] Images with hover effect
-- [ ] Footer
+- [x] Footer
 - [ ] Responsive Design
 - [ ] Javascript for DOM manipulation
 
